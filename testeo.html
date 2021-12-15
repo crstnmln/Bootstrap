@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container-sm">100% wide until small breakpoint</div>
+<div class="container-md">100% wide until medium breakpoint</div>
+<div class="container-lg">100% wide until large breakpoint</div>
+<div class="container-xl">100% wide until extra large breakpoint</div>
+<div class="container-xxl">100% wide until extra extra large breakpoint</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+        Column
+      </div>
+      <div class="col">
+        Column
+      </div>
+      <div class="col">
+        Column
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-2">
+        1 of 3
+      </div>
+      <div class="col-md-auto">
+        Variable width content
+      </div>
+      <div class="col col-lg-2">
+        3 of 3
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        1 of 3
+      </div>
+      <div class="col-md-auto">
+        Variable width content
+      </div>
+      <div class="col col-lg-2">
+        3 of 3
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+      <div class="col-md-8">.col-md-8</div>
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+  
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row">
+      <div class="col-6 col-md-4 ps-3 pt-3 pb-3 pe-3 bg-light border">.col-6 .col-md-4</div>
+      <div class="col-6 col-md-4 ps-3 pt-3 pb-3 pe-3 bg-light border">.col-6 .col-md-4</div>
+      <div class="col-6 col-md-4 ps-3 pt-3 pb-3 pe-3 bg-light border">.col-6 .col-md-4</div>
+    </div>
+  
+    <!-- Columns are always 50% wide, on mobile and desktop -->
+    <div class="row">
+      <div class="col-6 ps-3 pt-3 pb-3 pe-3 bg-light border">.col-6</div>
+      <div class="col-6 ps-3 pt-3 pb-3 pe-3 bg-light border">.col-6</div>
+    </div>
+  </div>
+
+
+  <div class="container ">
+    <div class="row ps-3 pt-3 pb-3 pe-3 bg-light border">
+      <div class="col align-self-start ps-3 pt-3 pb-3 pe-3 bg-light border">
+        One of three columns
+      </div>
+      <div class="col align-self-center ps-3 pt-3 pb-3 pe-3 bg-light border">
+        One of three columns
+      </div>
+      <div class="col align-self-end ps-3 pt-3 pb-3 pe-3 bg-light border">
+        One of three columns
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-4">
+        One of two columns
+      </div>
+      <div class="col-4">
+        One of two columns
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        One of two columns
+      </div>
+      <div class="col-4">
+        One of two columns
+      </div>
+    </div>
+    <div class="row justify-content-end">
+      <div class="col-4">
+        One of two columns
+      </div>
+      <div class="col-4">
+        One of two columns
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-4">
+        One of two columns
+      </div>
+      <div class="col-4">
+        One of two columns
+      </div>
+    </div>
+    <div class="row justify-content-between">
+      <div class="col-4">
+        One of two columns
+      </div>
+      <div class="col-4">
+        One of two columns
+      </div>
+    </div>
+    <div class="row justify-content-evenly">
+      <div class="col-4">
+        One of two columns
+      </div>
+      <div class="col-4">
+        One of two columns
+      </div>
+    </div>
+  </div>
+
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="btn btn-outline-primary" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="btn btn-outline-primary" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class=" btn btn-outline-primary" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled">Disabled</a>
+    </li>
+  </ul>
+
+  <div class="card mb-3 mx-auto" style="max-width: 900px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="..." class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <form class="needs-validation" novalidate="">
+    <div class="row g-3">
+      <div class="col-sm-6">
+        <label for="firstName" class="form-label">First name</label>
+        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+        <div class="invalid-feedback">
+          Valid first name is required.
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <label for="lastName" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+        <div class="invalid-feedback">
+          Valid last name is required.
+        </div>
+      </div>
+
+      <div class="col-12">
+        <label for="username" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text">@</span>
+          <input type="text" class="form-control" id="username" placeholder="Username" required="">
+        <div class="invalid-feedback">
+            Your username is required.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+        <div class="invalid-feedback">
+          Please enter a valid email address for shipping updates.
+        </div>
+      </div>
+
+      <div class="col-12">
+        <label for="address" class="form-label">Address</label>
+        <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+        <div class="invalid-feedback">
+          Please enter your shipping address.
+        </div>
+      </div>
+
+      <div class="col-12">
+        <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+      </div>
+
+      <div class="col-md-5">
+        <label for="country" class="form-label">Country</label>
+        <select class="form-select" id="country" required="">
+          <option value="">Choose...</option>
+          <option>United States</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid country.
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="state" class="form-label">State</label>
+        <select class="form-select" id="state" required="">
+          <option value="">Choose...</option>
+          <option>California</option>
+        </select>
+        <div class="invalid-feedback">
+          Please provide a valid state.
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <label for="zip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="zip" placeholder="" required="">
+        <div class="invalid-feedback">
+          Zip code required.
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4">
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="same-address">
+      <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="save-info">
+      <label class="form-check-label" for="save-info">Save this information for next time</label>
+    </div>
+
+    <hr class="my-4">
+
+    <h4 class="mb-3">Payment</h4>
+
+    <div class="my-3">
+      <div class="form-check">
+        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+        <label class="form-check-label" for="credit">Credit card</label>
+      </div>
+      <div class="form-check">
+        <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+        <label class="form-check-label" for="debit">Debit card</label>
+      </div>
+      <div class="form-check">
+        <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+        <label class="form-check-label" for="paypal">PayPal</label>
+      </div>
+    </div>
+
+    <div class="row gy-3">
+      <div class="col-md-6">
+        <label for="cc-name" class="form-label">Name on card</label>
+        <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+        <small class="text-muted">Full name as displayed on card</small>
+        <div class="invalid-feedback">
+          Name on card is required
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="cc-number" class="form-label">Credit card number</label>
+        <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+        <div class="invalid-feedback">
+          Credit card number is required
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <label for="cc-expiration" class="form-label">Expiration</label>
+        <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+        <div class="invalid-feedback">
+          Expiration date required
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <label for="cc-cvv" class="form-label">CVV</label>
+        <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+        <div class="invalid-feedback">
+          Security code required
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4">
+
+    <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+  </form>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled">Disabled</a>
+          </div>
+        </div>
+      </div>
+  </nav>
+  
+  <nav class="navbar navbar-dark bg-primary">
+    <!-- Navbar content -->
+  </nav>
+  
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <!-- Navbar content -->
+  </nav>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="text-muted">© 2021 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <div class="b-example-divider"></div>
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+      <p class="text-center text-muted">© 2021 Company, Inc</p>
+    </footer>
+  </div>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
